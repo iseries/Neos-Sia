@@ -7,7 +7,7 @@
 ### Your data belongs to you!
 This [Flow](https://flow.neos.io) package allows you to store assets (resources) in [Sia](https://sia.tech/) - a decentralized cloud storage platform. No servers, no trusted third parties.
 
-**!!! Please note that this package is still in development. It was NOT tested in production. You should use this package in a development context.**
+**!!! Please note that this package is still in development. It was NOT tested in production. You should use it in a development context only.**
 ## Sia?
 > Sia leverages blockchain technology to create a data storage marketplace that is more robust and more affordable than traditional cloud storage providers.
 
