@@ -52,8 +52,7 @@ iSeries:
       urlHeadersUserAgent: 'Sia-Agent-2'
       apiClientOptions:
       profiles:
-        # Default credentials and client options
-        # Override these in your settings with real values
+        # Default options
         default:
           auth: false
           credentials:
