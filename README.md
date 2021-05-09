@@ -8,7 +8,7 @@
 This [Flow](https://flow.neos.io) package allows you to store assets (resources) in [Sia](https://sia.tech/) - a decentralized cloud storage platform. No servers, no trusted third parties.
 
 **!!! Please note that this package is still in development. It was NOT tested in production. You should use this package in a development context.**
-## What is Sia?
+## Sia?
 > Sia leverages blockchain technology to create a data storage marketplace that is more robust and more affordable than traditional cloud storage providers.
 
 ## What Sia does
@@ -38,6 +38,29 @@ $ composer require iseries/neos-sia:~1.0
 
 This package is using Skynet as default hosting platform. Note that you have to register an account on https://account.siasky.net/. The current release of this package only supports the free plan, which has a storage limit up to 100GB.
 
+### Skynet Setting
+
+```yaml
+iSeries:
+  Sia:
+    settings:
+      appName: 'neos-sia'
+      enpoint: 'siasky.net'
+      endpointSendPath: '/skynet/skyfile' # no ending "/"
+      hnsDomain: 'hns.siasky.net'
+      urlHeadersAccept: 'application/json'
+      urlHeadersUserAgent: 'Sia-Agent-2'
+      apiClientOptions:
+      profiles:
+        # Default credentials and client options
+        # Override these in your settings with real values
+        default:
+          credentials:
+            username: '' # Authentication username to use.
+            password: '' #  Authentication password to use.
+            userAgent: 'Sia-Agent-2' # Default UserAgent.
+```
+
 ### Resource Settings
 
 ```yaml
@@ -54,22 +77,6 @@ This package is using Skynet as default hosting platform. Note that you have to 
               bucket: 'yourappname'
               keyPrefix: '/'
               baseUri: 'hns.siasky.net' # default skynet host
-```
-
-### Skynet Setting
-
-```yaml
-iSeries:
-  Sia:
-    skynet:
-      profiles:
-        # Default credentials and client options
-        # Override these in your settings with real values
-        default:
-          credentials:
-            username: '' # Authentication username to use.
-            password: '' #  Authentication password to use.
-            userAgent: 'Sia-Agent-2' # Default UserAgent.
 ```
 
 ## Credits and license
