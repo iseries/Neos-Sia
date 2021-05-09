@@ -14,7 +14,7 @@ use Neos\Flow\Http\Request;
 use Neos\Flow\Annotations as Flow;
 
 /**
- * Class AddressApiHelper
+ * Class Sia Client
  * @package iSeries\Sia\Client
  * @Flow\Scope("singleton")
  */
@@ -23,7 +23,7 @@ class SiaClient
 
     /**
      * @var array
-     * @Flow\InjectConfiguration("skynet")
+     * @Flow\InjectConfiguration("settings")
      */
     protected $siaSettings;
 

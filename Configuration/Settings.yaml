@@ -1,6 +1,6 @@
 iSeries:
   Sia:
-    skynet:
+    settings:
       appName: 'neos-sia'
       enpoint: 'siasky.net'
       endpointSendPath: '/skynet/skyfile' # no ending "/"

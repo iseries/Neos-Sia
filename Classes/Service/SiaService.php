@@ -19,7 +19,7 @@ class SiaService
 
     /**
      * @var array
-     * @Flow\InjectConfiguration("skynet")
+     * @Flow\InjectConfiguration("settings")
      */
     protected $settings;
 
