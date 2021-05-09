@@ -1,6 +1,6 @@
-[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
-[![Packagist](https://img.shields.io/packagist/v/iseries/neos-sia.svg)](https://packagist.org/packages/iseries/neos-sia)
-[![Maintenance level: Acquaintance](https://img.shields.io/badge/maintenance-%E2%99%A1-ff69b4.svg)](https://renerehme.dev)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![Packagist](https://img.shields.io/packagist/v/iseries/neos-sia.svg?style=flat-square)](https://packagist.org/packages/iseries/neos-sia)
+[![Maintenance level: Acquaintance](https://img.shields.io/badge/maintenance-%E2%99%A1-ff69b4.svg?style=flat-square)](https://renerehme.dev)
 
 # Sia Adaptor for Neos and Flow
 
