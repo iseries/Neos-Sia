@@ -2,7 +2,7 @@
 [![Packagist](https://img.shields.io/packagist/v/iseries/neos-cia.svg)](https://packagist.org/packages/iseries/neos-cia)
 [![Maintenance level: Acquaintance](https://img.shields.io/badge/maintenance-%E2%99%A1-ff69b4.svg)](https://renerehme.dev)
 
-# Sia Adaptor for Neos 4.x
+# Sia Adaptor for Neos and Flow
 
 ### Your data belongs to you!
 This [Flow](https://flow.neos.io) package allows you to store assets (resources) in [Sia](https://sia.tech/) - a decentralized cloud storage platform. No servers, no trusted third parties.
@@ -28,7 +28,7 @@ https://support.sia.tech/
 The Sia adapter is installed as a regular Flow package via Composer. For your existing
 project, simply include `iseries/neos-sia` into the dependencies of your Flow or Neos distribution:
 
-### For Neos 4.*
+### For Neos 4.* / Flow 5.*
 
 ```bash
 $ composer require iseries/neos-sia:~1.0
