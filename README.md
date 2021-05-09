@@ -76,7 +76,10 @@ iSeries:
 ```
 
 ### Publish resources
-    path$ ./flow resource:publish
+
+```bash
+$ ./flow resource:publish
+```
 This command will upload your files to your configured target.
 
 ## Credits and license
