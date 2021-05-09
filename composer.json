@@ -1,0 +1,23 @@
+{
+  "description": "Sia Adaptor for Neos - a decentralized cloud storage for assets",
+  "type": "neos-package",
+  "name": "iseries/neos-sia",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "neos/flow": "6.* || dev-master",
+    "neos/media": "5.* || dev-master",
+    "guzzlehttp/guzzle": "6.*",
+    "behat/transliterator": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "iSeries\\Sia\\": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "iSeries.Neos-Sia"
+    }
+  }
+}

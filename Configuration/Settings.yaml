@@ -1,0 +1,18 @@
+iSeries:
+  Sia:
+    skynet:
+      appName: 'neos-sia'
+      enpoint: 'siasky.net'
+      endpointSendPath: '/skynet/skyfile' # no ending "/"
+      hnsDomain: 'hns.siasky.net'
+      urlHeadersAccept: 'application/json'
+      urlHeadersUserAgent: 'Sia-Agent-2'
+      apiClientOptions:
+      profiles:
+        # Default credentials and client options
+        # Override these in your settings with real values
+        default:
+          credentials:
+            username: '' # Authentication username to use.
+            password: '' #  Authentication password to use.
+            userAgent: 'Sia-Agent-2' # Default UserAgent.
