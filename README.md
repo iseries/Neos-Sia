@@ -55,6 +55,7 @@ iSeries:
         # Default credentials and client options
         # Override these in your settings with real values
         default:
+          auth: false
           credentials:
             username: '' # Authentication username to use.
             password: '' #  Authentication password to use.
@@ -73,10 +74,6 @@ iSeries:
         targets:
           siaPersistentResourcesTarget:
             target: 'iSeries\Sia\SiaTarget'
-            targetOptions:
-              bucket: 'yourappname'
-              keyPrefix: '/'
-              baseUri: 'hns.siasky.net' # default skynet host
 ```
 
 ## Credits and license
