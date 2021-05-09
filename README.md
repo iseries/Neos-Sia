@@ -75,6 +75,10 @@ iSeries:
             target: 'iSeries\Sia\SiaTarget'
 ```
 
+### Publish resources
+    path$ ./flow resource:publish
+This command will upload your files to your configured target.
+
 ## Credits and license
 
 This plugin was developed by [Rene Rehme](https://www.renrehme.dev).
