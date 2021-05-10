@@ -10,11 +10,3 @@ iSeries:
       apiKey: '' # apiKey for auth password
       customCookie: '' # custom cookie
       apiClientOptions:
-      profiles:
-        # Default credentials and client options
-        # Override these in your settings with real values
-        default:
-          credentials:
-            username: '' # Authentication username to use.
-            password: '' #  Authentication password to use.
-            userAgent: 'Sia-Agent-2' # Default UserAgent.

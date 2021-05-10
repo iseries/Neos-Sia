@@ -50,15 +50,9 @@ iSeries:
       hnsDomain: 'hns.siasky.net'
       urlHeadersAccept: 'application/json'
       urlHeadersUserAgent: 'Sia-Agent-2'
+      apiKey: '' # apiKey is used for auth password
+      customCookie: '' # custom cookie
       apiClientOptions:
-      profiles:
-        # Default options
-        default:
-          auth: false
-          credentials:
-            username: '' # Authentication username to use.
-            password: '' #  Authentication password to use.
-            userAgent: 'Sia-Agent-2' # Default UserAgent.
 ```
 
 ### Resource Settings
