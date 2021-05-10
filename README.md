@@ -36,7 +36,7 @@ $ composer require iseries/neos-sia:~1.0
 
 ## Configuration
 
-This package is using Skynet as default hosting platform. Note that you have to register an account on https://account.siasky.net/. The current release of this package only supports the free plan, which has a storage limit up to 100GB.
+This package is using Skynet as default hosting platform. The current release of this package only supports the free plan, which has a storage limit up to 100GB.
 
 ### Skynet Setting
 
@@ -50,8 +50,8 @@ iSeries:
       hnsDomain: 'hns.siasky.net'
       urlHeadersAccept: 'application/json'
       urlHeadersUserAgent: 'Sia-Agent-2'
-      apiKey: '' # apiKey is used for auth password
-      customCookie: '' # custom cookie
+      apiKey: '' # apiKey is used for auth password. Not needed yet.
+      customCookie: '' # custom cookie. Not needed yet.
       apiClientOptions:
 ```
 
