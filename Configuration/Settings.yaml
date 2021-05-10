@@ -7,6 +7,8 @@ iSeries:
       hnsDomain: 'hns.siasky.net'
       urlHeadersAccept: 'application/json'
       urlHeadersUserAgent: 'Sia-Agent-2'
+      apiKey: '' # apiKey for auth password
+      customCookie: '' # custom cookie
       apiClientOptions:
       profiles:
         # Default credentials and client options

@@ -66,14 +66,24 @@ class SiaClient
     {
         $uri = new Uri('https://' . $this->getOption('enpoint') . $this->getOption('endpointSendPath') . '/');
         $client = new Client($this->getOption('apiClientOptions'));
+
+        # set auth if given
+        $auth = ($this->getOption('apiKey') !== '' ? $this->getOption('apiKey') : null);
+
+        # set cookie if given
+        $cookie = ($this->getOption('customCookie') !== '' ? $this->getOption('customCookie') : false);
+
+        # build options
         $options = [
+            'auth' => $auth,
             'headers' => [
                 'Accept' => $this->getOption('urlHeadersAccept'),
-                'User-Agent' => $this->getOption('urlHeadersUserAgent')
+                'User-Agent' => $this->getOption('urlHeadersUserAgent'),
+                'Cookie' => $cookie
             ],
             'multipart' => [
                 [
-                    'name'     => 'file',
+                    'name' => 'file',
                     'contents' => $resource,
                     'filename' => $filename
                 ]
