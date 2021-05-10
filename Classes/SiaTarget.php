@@ -1,8 +1,8 @@
 <?php
-namespace iSeries\Cia;
+namespace iSeries\Sia;
 
 /*
- * This file is part of the iSeries.Cia package.
+ * This file is part of the iSeries.Sia package.
  */
 
 use iSeries\Sia\Client\SiaClient;
@@ -18,7 +18,7 @@ use Neos\Flow\ResourceManagement\Target\TargetInterface;
 use Psr\Log\LoggerInterface;
 
 /**
- * A resource publishing target based on Cia
+ * A resource publishing target based on Sia
  */
 class SiaTarget implements TargetInterface
 {

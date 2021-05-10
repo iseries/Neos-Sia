@@ -1,8 +1,8 @@
 <?php
-namespace iSeries\Cia;
+namespace iSeries\Sia;
 
 /*
- * This file is part of the iSeries.Cia package.
+ * This file is part of the iSeries.Sia package.
  */
 
 use Neos\Flow\Annotations as Flow;
