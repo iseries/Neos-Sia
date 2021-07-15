@@ -3,6 +3,9 @@
 [![Maintenance level: Acquaintance](https://img.shields.io/badge/maintenance-%E2%99%A1-f3586d.svg?style=flat-square)](https://renerehme.dev)
 
 # Sia Adaptor for Neos and Flow
+### ⚠️ This package is under development ⚠️
+
+---
 
 ### Your data belongs to you!
 This [Flow](https://flow.neos.io) package allows you to store assets (resources) in [Sia](https://sia.tech/) - a decentralized cloud storage platform. No servers, no trusted third parties.
